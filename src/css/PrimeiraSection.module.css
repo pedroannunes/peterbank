@@ -3,6 +3,7 @@
     height: 100vh;
     background: linear-gradient(#0a375f,#172a3a);
     display: flex;
+    justify-content: space-around;
 }
 
 .caixaTexto{
@@ -30,10 +31,10 @@
 }
 
 .app{
-    width: 450px;
-    height: 550px;
+    width: 30%;
+    height: 85vh;
     margin-top: 100px;
-    margin-left: 200px;
+    margin-left: 150px;
 
 }
 
