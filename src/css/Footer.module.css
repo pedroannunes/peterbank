@@ -1,0 +1,44 @@
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #121D27;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cx1, .cx2, .cx3, .cx4{
+    width: 275px;
+    height: 185px;
+    
+    color: #FFF;
+
+}
+.cx2, .cx3, .cx4{
+text-align: justify;
+}
+
+
+.insta, .git, .face, .linkedin{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.insta:hover, .git:hover, .face:hover, .linkedin:hover{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.8s;
+    
+}
+
+
+p{
+    font-size: 14px;
+}
+
+
+
+.destaque2{
+    color: #61e5e5;
+}

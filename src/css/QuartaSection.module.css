@@ -1,0 +1,48 @@
+.quartaSection{
+    width: 100%;
+    height: 450px;
+    background: linear-gradient(#0a375f,#25425C);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caixaTexto{
+    width: 567px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    text-align: inherit;
+}
+
+
+.txt1{
+    color: #FFF;
+    font-size: 50px;
+}
+.txt2{
+    font-size: 30px;
+    color: #FFF;
+    margin-top: -10px;
+}
+
+.bt5{
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 50px;
+    width: 160px;
+}
+
+.miles{
+    border-radius: 50px;
+    width: 387px;
+    height: 387px;
+}
+
+.destaque{
+    color: #FF8A00;
+}
+
+.destaque2{
+    color: #61e5e5;
+}
