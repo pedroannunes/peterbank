@@ -1,6 +1,6 @@
 .primeiraSection{
     width: 100%;
-    height: 650px;
+    height: 100vh;
     background: linear-gradient(#0a375f,#172a3a);
     display: flex;
 }

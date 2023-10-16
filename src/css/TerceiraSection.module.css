@@ -1,6 +1,6 @@
 .terceiraSection{
     width: 100%;
-    height: 450px;
+    height: 100vh;
     background: linear-gradient(#25425C, #1E3346);
     display: flex;
     justify-content: space-around;
