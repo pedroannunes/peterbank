@@ -79,8 +79,8 @@ button:hover{
     @media (max-width: 460px){
 
         .btH{
-            width: 80px;
-            font-size: 11px;
+            width: 60px;
+            font-size: 10px;
             margin-left: 5px;
         }
 
