@@ -31,7 +31,7 @@ function Footer(){
                     
                     <p>Central de ajuda</p>
                     <p>2° via de boleto</p>
-                    <p>Negocio sua dívida</p>
+                    <p>Negocie sua dívida</p>
                     <p>Acessibilidade</p>
             </div>
             <div className={Style.cx4}>
