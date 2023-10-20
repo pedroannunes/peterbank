@@ -1,6 +1,6 @@
 .segundaSection{
     width: 100%;
-    height: 432px;
+    height: 75vh;
     background: linear-gradient(#0a375f,#172a3a);
     display: flex;
     flex-direction: row;
@@ -9,8 +9,8 @@
 }
 
 .mulher{
-    height: 431px;
-    width: 318px;
+    height: 75vh;
+    width: 23%;
 }
 
 .caixaTxt{
@@ -39,4 +39,53 @@
 
 .destaque{
     color: #FF8A00;
+}
+
+@media (max-width: 768px){
+
+    .logo{
+        display: none;
+    }
+
+    .caixaTxt{
+        width: 500px;
+    }
+
+    .txt3{
+        font-size: 30px;
+    }
+
+    .mulher{
+        height: 75vh;
+        width: 40%;
+    }
+
+
+}
+@media (max-width: 460px){
+
+    .caixaTxt{
+        width: 300px;
+    }
+
+    .txt3{
+        font-size: 25px;
+    }
+    .txt4{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .mulher{
+        height: 75vh;
+        width: 45%;
+    }
+
+    .bt4{
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: center;
+    }
+
+
 }

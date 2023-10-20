@@ -5,6 +5,7 @@
     width: 100%;
     height: 110px;
     position: fixed;
+    z-index: 10;
 }
 
 .scrolled{
@@ -25,7 +26,7 @@ li{
 }
 
 li:hover{
-    font-size: 22px;
+    transform: scale(1.2);
     transition: 0.8s;
     cursor: pointer;
     color: #61E5E5;
@@ -36,14 +37,71 @@ button{
     height: 40px;
     border-radius: 10px;
     background-color: #46b4b4;
-    color: #FFF;
+    color: #0a375f;
     font-size: 18px;
+    font-weight: bold;
 }
 button:hover{
-    width: 190px;
-    height: 50px;
+    transform: scale(1.2);
     background-color: #25425c00;
     transition: 0.8s;
     cursor: pointer;
     color: #61E5E5;
+}
+
+@media (max-width: 768px){
+
+    .header{
+        width: 100%;
+    }
+
+    .logoH{
+        width: 70px;
+        height: 90px;
+        margin-left: -20px;
+    }
+    
+
+    li{
+        font-size: 13px;
+    }
+
+    .btH{
+        width: 80px;
+        font-size: 13px;
+    }
+
+    .btH2{
+        width: 80px;
+        font-size: 13px;
+    }
+
+    @media (max-width: 460px){
+
+        .btH{
+            width: 80px;
+            font-size: 11px;
+            margin-left: 5px;
+        }
+
+        .btH2{
+            display: none;
+        }
+
+        .logoH{
+            width: 70px;
+            height: 90px;
+            margin-left: -2 0px;
+        }
+
+        li{
+            font-size: 10px;
+        }
+        
+
+    }
+
+
+
+
 }

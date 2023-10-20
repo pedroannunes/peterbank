@@ -32,7 +32,7 @@ function Footer(){
                     <p>Central de ajuda</p>
                     <p>2° via de boleto</p>
                     <p>Negocio sua dívida</p>
-                    <p>Ferramentas de acessibilidade</p>
+                    <p>Acessibilidade</p>
             </div>
             <div className={Style.cx4}>
                 <h3>Outras informações</h3> 

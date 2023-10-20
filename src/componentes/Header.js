@@ -32,8 +32,8 @@ function Header (){
                 <li>O PeterBank</li>
                 <li>Atendimento</li>
             
-                <button>Abra sua conta</button>
-                <button>Log-in</button>
+                <button className={Style.btH}>Abra sua conta</button>
+                <button className={Style.btH2}>Log-in</button>
                 
         </header>
 

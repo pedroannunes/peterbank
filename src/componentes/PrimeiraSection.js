@@ -1,5 +1,6 @@
 import Style from '../css/PrimeiraSection.module.css';
 import app from '../img/app.png';
+import app3 from '../img/app3.png';
 
 import {React, useEffect} from 'react';
 
@@ -27,7 +28,7 @@ function PrimeiraSection (){
 
             <button className={Style.bt1}> Baixar App</button>
 
-            <img src={app} className={Style.app} data-aos="fade-right" data-aos-duration="3000"/>
+            <img src={app3} className={Style.app} data-aos="fade-right" data-aos-duration="3000"/>
 
         </section>
     
